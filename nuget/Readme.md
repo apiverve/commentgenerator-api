@@ -1,13 +1,12 @@
-CommentGenerator API
+Comment Generator API
 ============
 
-Comment Generator is a simple tool for generating comments for social media. It returns a list of comments based on the input parameters.
+Comment Generator produces social media comments formatted for text or image posts across positive, negative, and neutral tones. Each request returns generated comment text with optional emoji support, while paid plans can request batches up to 10.
 
-![Build Status](https://img.shields.io/badge/build-passing-green)
-![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
-![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a .NET Wrapper for the [CommentGenerator API](https://apiverve.com/marketplace/commentgenerator?utm_source=nuget&utm_medium=readme)
+[![NuGet version](https://img.shields.io/nuget/v/APIVerve.API.CommentGenerator.svg)](https://www.nuget.org/packages/APIVerve.API.CommentGenerator)
+
+This is a .NET wrapper for the [Comment Generator API](https://apiverve.com/marketplace/commentgenerator?utm_source=nuget&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -40,8 +39,8 @@ From within Visual Studio:
 
 ## Configuration
 
-Before using the commentgenerator API client, you have to setup your account and obtain your API Key.
-You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=nuget&utm_medium=readme)
+Before using the Comment Generator API client, you have to setup your account and obtain your API Key.
+You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=nuget&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -61,11 +60,11 @@ class Program
         var apiClient = new CommentGeneratorAPIClient("[YOUR_API_KEY]");
 
         var queryOptions = new CommentGeneratorQueryOptions {
-    Mode = "text",
-    Tone = "positive",
-    Count = 1,
-    Emojis = true
-};
+            Mode = "text",
+            Tone = "positive",
+            Count = 1,
+            Emojis = true
+        };
 
         // Make the API call
         try
@@ -95,13 +94,13 @@ class Program
 
 ## Usage
 
-The CommentGenerator API documentation is found here: [https://docs.apiverve.com/ref/commentgenerator](https://docs.apiverve.com/ref/commentgenerator?utm_source=nuget&utm_medium=readme).
+The Comment Generator API documentation is found here: [https://docs.apiverve.com/ref/commentgenerator](https://docs.apiverve.com/ref/commentgenerator?utm_source=nuget&utm_medium=referral&utm_content=readme).
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
 
 ###### Authentication
-CommentGenerator API uses API Key-based authentication. When you create an instance of the API client, you can pass your API Key as a parameter.
+Comment Generator API uses API Key-based authentication. When you create an instance of the API client, you can pass your API Key as a parameter.
 
 ```csharp
 // Create an instance of the API client
@@ -128,11 +127,11 @@ public class Example
         var apiClient = new CommentGeneratorAPIClient("[YOUR_API_KEY]");
 
         var queryOptions = new CommentGeneratorQueryOptions {
-    Mode = "text",
-    Tone = "positive",
-    Count = 1,
-    Emojis = true
-};
+            Mode = "text",
+            Tone = "positive",
+            Count = 1,
+            Emojis = true
+        };
 
         var response = await apiClient.ExecuteAsync(queryOptions);
 
@@ -163,11 +162,11 @@ public class Example
         var apiClient = new CommentGeneratorAPIClient("[YOUR_API_KEY]");
 
         var queryOptions = new CommentGeneratorQueryOptions {
-    Mode = "text",
-    Tone = "positive",
-    Count = 1,
-    Emojis = true
-};
+            Mode = "text",
+            Tone = "positive",
+            Count = 1,
+            Emojis = true
+        };
 
         var response = apiClient.Execute(queryOptions);
 
@@ -203,11 +202,11 @@ public class Example
         var apiClient = new CommentGeneratorAPIClient("[YOUR_API_KEY]");
 
         var queryOptions = new CommentGeneratorQueryOptions {
-    Mode = "text",
-    Tone = "positive",
-    Count = 1,
-    Emojis = true
-};
+            Mode = "text",
+            Tone = "positive",
+            Count = 1,
+            Emojis = true
+        };
 
         try
         {
@@ -262,11 +261,11 @@ public class Example
         apiClient.SetRetryDelay(2000);     // Wait 2 seconds between retries
 
         var queryOptions = new CommentGeneratorQueryOptions {
-    Mode = "text",
-    Tone = "positive",
-    Count = 1,
-    Emojis = true
-};
+            Mode = "text",
+            Tone = "positive",
+            Count = 1,
+            Emojis = true
+        };
 
         try
         {
@@ -412,7 +411,7 @@ using (var apiClient = new CommentGeneratorAPIClient("[YOUR_API_KEY]"))
 
 ## Customer Support
 
-Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=nuget&utm_medium=readme).
+Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=nuget&utm_medium=referral&utm_content=readme).
 
 ---
 
@@ -423,12 +422,12 @@ Stay up to date by following [@apiverveHQ](https://twitter.com/apiverveHQ) on Tw
 
 ## Legal
 
-All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=nuget&utm_medium=readme) and all legal documents and agreements.
+All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=nuget&utm_medium=referral&utm_content=readme) and all legal documents and agreements.
 
 ---
 
 ## License
-Licensed under the The MIT License (MIT)
+Licensed under the MIT License (MIT)
 
 Copyright (&copy;) 2026 APIVerve, and EvlarSoft LLC
 
