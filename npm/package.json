@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/commentgenerator",
-  "version": "1.2.0",
-  "description": "Comment Generator is a simple tool for generating comments for social media. It returns a list of comments based on the input parameters.",
+  "version": "1.2.2",
+  "description": "Comment Generator produces social media comments formatted for text or image posts across positive, negative, and neutral tones. Each request returns generated comment text with optional emoji support, while paid plans can request batches up to 10.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -23,7 +23,7 @@
     "directory": "npm"
   },
   "keywords": [
-    "comment generator", "comment generation", "comment generate", "comment api", "comment tool"
+    "comment generator api", "generate social comments", "social media comment generator", "generate text post comments", "picture post comments"
   ],
   "author": {
     "name": "APIVerve",
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/commentgenerator-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/commentgenerator?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/commentgenerator?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
