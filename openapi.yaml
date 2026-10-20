@@ -2,8 +2,10 @@ openapi: 3.0.4
 info:
   title: Comment Generator
   description: >-
-    Comment Generator is a simple tool for generating comments for social media.
-    It returns a list of comments based on the input parameters.
+    Comment Generator produces social media comments formatted for text or image
+    posts across positive, negative, and neutral tones. Each request returns
+    generated comment text with optional emoji support, while paid plans can
+    request batches up to 10.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -18,7 +20,7 @@ servers:
 paths:
   /v1/commentgenerator:
     get:
-      summary: Generate Text Post Comments
+      summary: Comment Generator
       description: Generate comments for text-based social media posts
       operationId: commentgenerator
       parameters:
