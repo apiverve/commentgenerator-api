@@ -1,6 +1,6 @@
 # Comment Generator API - PHP Package
 
-Comment Generator is a simple tool for generating comments for social media. It returns a list of comments based on the input parameters.
+Comment Generator produces social media comments formatted for text or image posts across positive, negative, and neutral tones. Each request returns generated comment text with optional emoji support, while paid plans can request batches up to 10.
 
 ## Installation
 
@@ -95,11 +95,11 @@ $client = new Client(
 
 ## Documentation
 
-For more information, visit the [API Documentation](https://docs.apiverve.com/ref/commentgenerator?utm_source=packagist&utm_medium=readme).
+For more information, visit the [API Documentation](https://docs.apiverve.com/ref/commentgenerator?utm_source=packagist&utm_medium=referral&utm_content=readme).
 
 ## Support
 
-- Website: [https://apiverve.com/marketplace/commentgenerator?utm_source=php&utm_medium=readme](https://apiverve.com/marketplace/commentgenerator?utm_source=php&utm_medium=readme)
+- Website: [https://apiverve.com/marketplace/commentgenerator?utm_source=php&utm_medium=referral&utm_content=readme](https://apiverve.com/marketplace/commentgenerator?utm_source=php&utm_medium=referral&utm_content=readme)
 - Email: hello@apiverve.com
 
 ## License
