@@ -46,7 +46,7 @@ final _formatPatterns = {
 
 /// Comment Generator API client.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/commentgenerator?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/commentgenerator?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
 /// * [mode] (required) - The mode of comment generation
