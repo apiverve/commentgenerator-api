@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/commentgenerator",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Comment Generator produces social media comments formatted for text or image posts across positive, negative, and neutral tones. Each request returns generated comment text with optional emoji support, while paid plans can request batches up to 10.",
   "main": "index.js",
   "types": "index.d.ts",
