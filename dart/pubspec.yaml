@@ -1,6 +1,6 @@
 name: apiverve_commentgenerator
 description: "Comment Generator produces social media comments formatted for text or image posts across positive, negative, and neutral tones. Each request returns generated comment text with optional emoji support, while paid plans can request batches up to 10."
-version: 1.2.4
+version: 1.2.5
 homepage: https://apiverve.com/marketplace/commentgenerator?utm_source=dart&utm_medium=referral&utm_content=homepage
 repository: https://github.com/apiverve/commentgenerator-api/tree/main/dart
 
